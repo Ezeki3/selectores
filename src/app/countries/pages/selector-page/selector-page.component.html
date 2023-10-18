@@ -26,7 +26,7 @@
   </div>
 
   <!-- Fronteras -->
-  <div class="row mb-3" >
+  <div class="row mb-3" *ngIf="borders.length > 0">
     <div class="col">
       <label class="form-label">Fronteras:</label>
       <select formControlName="border" class="form-control">
